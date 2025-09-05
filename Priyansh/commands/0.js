@@ -2,7 +2,7 @@ const fs = require("fs");
 module.exports.config = {
 	name: "mm",
     version: "1.0.1",
-	hasPermssion: 0,
+	hasPermssion: 1,
 	credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭", 
 	description: "Don't Change Credits",
 	commandCategory: "no prefix",
@@ -23,4 +23,4 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	}
 	module.exports.run = function({ api, event, client, __GLOBAL }) {
 
-  }
+  
